@@ -8,6 +8,7 @@ API REST de gestion de tâches développée avec Spring Boot, Spring Data JPA, H
 
 - Java 21 ou supérieur
 - Maven 3.8+
+- PostgreSQL 15+
 
 ## 🛠️ Lancement de l'application
 
@@ -31,15 +32,11 @@ API REST de gestion de tâches développée avec Spring Boot, Spring Data JPA, H
 
 Une fois l'application démarrée, la documentation interactive est accessible à l'adresse :
 👉 http://localhost:8085/swagger-ui/index.html
-🗄️ Base de données (H2 Console)
 
-    URL : http://localhost:8085/h2-console
-
-    JDBC URL : jdbc:h2:mem:todolistdb
-
-    Username : sa
-
-    Password : (laisser vide)
+- **SGBD :** PostgreSQL
+- **Nom de la base :** `todolistdb`
+- **URL de connexion :** `jdbc:postgresql://127.0.0.1:5432/todolistdb`
+- **Gestionnaire BDD conseillé :** pgAdmin ou DBeaver
 
 📌 Endpoints principaux
 
