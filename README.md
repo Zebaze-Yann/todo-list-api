@@ -2,7 +2,7 @@ Markdown
 
 # To-Do List API
 
-API REST de gestion de tâches développée avec Spring Boot, Spring Data JPA, H2 et Swagger UI.
+API REST de gestion de tâches développée avec Spring Boot, Spring Data JPA, PostgreSQL et Swagger UI.
 
 ## 🚀 Prérequis
 
